@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.Cover{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('Images/Cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    margin: 15px 0px 0px 150px;
+    height: 50px;
+    width: 260px;
+    background-image: url(Images/Netflix\ Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.SinginIn{
+    margin-top: 25px;
+    margin-right: 200px;
+    background-color: #E50914;
+    height: 32px;
+    width: 76px;
+    border-radius: 7px;
+    border: 2px solid #E50914;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.heading1 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 35px; 
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+   
+}
+
+.para{
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 20px; 
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.heading3 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 1rem; 
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    font-weight: 400;
+   
+}
+
+.search{
+    position: absolute;
+    left: 42%;
+    top: 70%;
+    width: 100%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Email{
+    height: 56px;
+    width: 380px;
+    padding: 10px 16px 8px;
+    border-radius: 4px;
+    border: 1px groove whitesmoke;
+    background-color: rgba(12, 12, 12, 0.7);
+    color: white;
+    font-size: 1rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+#Email::placeholder{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.getstarted{
+    position: absolute;
+    left: 61%;
+    top: 70%;
+    width: 200px;
+    height: 56px;
+    transform: translateX(-50%);
+    background-color: #E50914;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px groove#E50914;
+}
+
+.getstarted i{
+    margin: 0px 5px 0px 25px;
+}
+
+.Foot{
+    background-color: black;
+    height: 1900px;
+    width: 100%;
+}
+
+.divider {
+    width: 100%;
+    height: 1px; 
+    background-color: #E50914;
+}
+
+.head3{
+    padding: 20px 0px 0px 115px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.box-container {
+    margin: 30px 40px 0px 100px;
+    display: flex;   
+    height: 250px;
+    overflow: hidden;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.One{  
+    height: 100px;
+    color: black;              
+    font-size: 5rem;   
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;        
+    margin: 150px 0px 45px 10px ;   
+    transform: translateX(-35px);
+    text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white;
+}
+
+
+#T1,#T2,#T3,#T4,#T5,#T6{
+    display: block;
+    height: 470px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#T1 {
+    background-image: url(Images/One.jpg);
+}
+
+#T2 {
+    background-image: url(Images/Two.jpg);
+}
+
+#T3 {
+    background-image: url(Images/Three.jpg);
+}
+
+#T4 {
+    background-image: url(Images/Five.jpg);
+}
+
+#T5 {
+    background-image: url(Images/Four.jpg);
+}
+
+#T6 {
+    background-image: url(Images/Six.jpg);
+}
+
+@keyframes scaleup {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#T1:hover,#T2:hover,#T3:hover,#T4:hover,#T5:hover,#T6:hover {
+    animation: scaleup 0.3s ease-in-out forwards;
+}
+
+.Head3{
+    margin: 35px 0px 0px 0px;
+    padding: 20px 0px 0px 115px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.reasons {
+    margin: 20px 0px 0px 25px;
+    display: flex;
+    justify-content: space-around; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+}
+
+.R{
+    height: 250px;
+    width: 300px;
+    background: linear-gradient(135deg, 
+    #00052b, #010426, #01062a, #020527, 
+    #02082c, #03082b, #06092a, #070725, 
+    #0b0a28, #0b0c2b);
+    border-radius: 15px;
+}
+
+.R3{
+    padding: 20px 0px 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.P3{
+    padding: 15px 0px 0px 20px;
+    font-size: 16px;
+    color: #FFFFFFB3;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+svg{
+    margin: 35px 0px 0px 210px;
+}
+
+.svg2{
+    margin: 25px 3px 0px 220px;
+}
+
+.svg3{
+    margin: 65px 0px 0px 220px;
+}
+
+
+.svg4{
+    margin: 40px 0px 0px 220px;
+}
+
+.F1{
+    margin: 15px 0px 0px 115px;
+    padding: 0px 20px 0px 20px;
+    height: 85px;
+    width: 88%;
+    background-color: #2d2d2d;
+    text-align: left;
+    border: 1px groove  #2d2d2d;
+    font-size: 1.5rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#plus-icon{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.F1:hover{
+    background-color: #414141;
+}
+
+
+.F_heading3 {
+    position: absolute;
+    left: 50%;
+    top: 295%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 1rem; 
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.F_search{
+    position: absolute;
+    left: 42%;
+    top: 302%;
+    width: 100%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.F_getstarted{
+    position: absolute;
+    left: 61%;
+    top: 302%;
+    width: 200px;
+    height: 56px;
+    transform: translateX(-50%);
+    background-color: #E50914;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px groove#E50914;
+}
+
+.F_getstarted i{
+    margin: 0px 5px 0px 25px;
+}
+
+.Ft1{
+    display: inline-block;
+    color: #B3B3B3;
+    margin: 250px 0px 0px 140px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.list1 p, .list2 p, .list3 p {
+    margin-bottom: 20px;
+    color: #B3B3B3;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
+
